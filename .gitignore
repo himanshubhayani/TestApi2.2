@@ -1,0 +1,13 @@
+/.vs
+/Test.api/bin
+/Test.api/obj
+/Test.data/bin
+/Test.data/obj
+/Test.jwt.authentication/bin
+/Test.jwt.authentication/obj
+/Test.logic/bin
+/Test.logic/obj
+/Test.api/appsettings.Azuredev.json
+/Test.api/appsettings.Development.json
+/Test.api/appsettings.TALocal.json
+/Test.data/Models/ViewModels/CommonVM.cs
