@@ -8,8 +8,6 @@ namespace Test.data.Models
         [Key, Required]
         public int Id { get; set; }
 
-        public string UserName { get; set; }
-
         [Required(ErrorMessage = "Email can't be empty")]
         [DataType(DataType.EmailAddress)]
         [EmailAddress]
@@ -25,10 +23,6 @@ namespace Test.data.Models
         public string ProfilePic { get; set; }
 
         public bool? IsActive { get; set; } = true;
-
-        public string HashCode { get; set; }
-
-        public bool IsClientUser { get; set; }
 
     }
 }
